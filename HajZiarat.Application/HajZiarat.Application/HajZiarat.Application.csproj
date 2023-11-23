@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!--<Nullable>enable</Nullable>-->
+  </PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+		<PackageReference Include="ClosedXML" Version="0.96.0" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.6.0" />
+		<PackageReference Include="IraniValidator.core" Version="6.0.0" />
+		<PackageReference Include="LinqKit" Version="1.2.4" />
+		<PackageReference Include="MediatR" Version="12.1.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.8" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+		<PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+		<PackageReference Include="StackExchange.Redis.Extensions.AspNetCore" Version="9.1.0" />
+		<PackageReference Include="StackExchange.Redis.Extensions.Newtonsoft" Version="9.1.0" />
+		<PackageReference Include="StackExchange.Redis.Extensions.Utf8Json" Version="9.1.0" />
+		<PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.3" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\HajZiarat..Domain\HajZiarat.Domain\HajZiarat.Domain.csproj" />
+	  <ProjectReference Include="..\..\HajZiarat.Common\Redis\Redis.csproj" />
+	  <ProjectReference Include="..\..\HajZiarat.Common\Resources\Resources.csproj" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <Folder Include="Features\MyEntity\Query\" />
+	</ItemGroup>
+
+</Project>

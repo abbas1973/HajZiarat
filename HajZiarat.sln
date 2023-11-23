@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HajZiarat.Web", "HajZiarat.Web", "{720AA00E-8AB1-4CDC-A578-35724A06FE21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HajZiarat.Infrastructure", "HajZiarat.Infrastructure", "{ECF1AD09-5D27-4E3B-97CB-39847552C152}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HajZiarat.Domain", "HajZiarat.Domain", "{6093D178-33C0-4BF2-B5E6-0DE62ECD70AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HajZiarat.Application", "HajZiarat.Application", "{6C3E0C5D-CD95-4D6A-93E4-DB8378204D2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HajZiarat.Domain", "HajZiarat..Domain\HajZiarat.Domain\HajZiarat.Domain.csproj", "{CE5930E6-F923-4553-ACE5-102F23D073FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HajZiarat.Application", "HajZiarat.Application\HajZiarat.Application\HajZiarat.Application.csproj", "{82267BDE-FC14-436A-BB4D-D1C5AFCF13DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HajZiarat.Infrastructure", "HajZiarat.Infrastructure\HajZiarat.Infrastructure\HajZiarat.Infrastructure.csproj", "{BED3F928-903B-40A3-AEDB-08BFAB304FB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HajZiarat.Web", "HajZiarat.Web\HajZiarat.Web\HajZiarat.Web.csproj", "{6FE410FD-ED32-4C21-848B-487BA34E12E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HajZiarat.Common", "HajZiarat.Common", "{F8F75AD9-88ED-4232-9F86-BD6BAA75B342}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis", "HajZiarat.Common\Redis\Redis.csproj", "{3A390A57-C7CE-47C4-A098-11ADAF7AECE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resources", "HajZiarat.Common\Resources\Resources.csproj", "{5BBF8A75-04A1-4103-BA37-175BC83497D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", "HajZiarat.Common\Utilities\Utilities.csproj", "{B364C588-ADB1-42B9-8BAF-F8916FC29689}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE5930E6-F923-4553-ACE5-102F23D073FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5930E6-F923-4553-ACE5-102F23D073FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5930E6-F923-4553-ACE5-102F23D073FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5930E6-F923-4553-ACE5-102F23D073FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82267BDE-FC14-436A-BB4D-D1C5AFCF13DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82267BDE-FC14-436A-BB4D-D1C5AFCF13DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82267BDE-FC14-436A-BB4D-D1C5AFCF13DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82267BDE-FC14-436A-BB4D-D1C5AFCF13DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED3F928-903B-40A3-AEDB-08BFAB304FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED3F928-903B-40A3-AEDB-08BFAB304FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED3F928-903B-40A3-AEDB-08BFAB304FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED3F928-903B-40A3-AEDB-08BFAB304FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE410FD-ED32-4C21-848B-487BA34E12E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE410FD-ED32-4C21-848B-487BA34E12E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE410FD-ED32-4C21-848B-487BA34E12E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE410FD-ED32-4C21-848B-487BA34E12E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A390A57-C7CE-47C4-A098-11ADAF7AECE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A390A57-C7CE-47C4-A098-11ADAF7AECE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A390A57-C7CE-47C4-A098-11ADAF7AECE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A390A57-C7CE-47C4-A098-11ADAF7AECE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBF8A75-04A1-4103-BA37-175BC83497D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBF8A75-04A1-4103-BA37-175BC83497D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBF8A75-04A1-4103-BA37-175BC83497D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBF8A75-04A1-4103-BA37-175BC83497D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B364C588-ADB1-42B9-8BAF-F8916FC29689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B364C588-ADB1-42B9-8BAF-F8916FC29689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B364C588-ADB1-42B9-8BAF-F8916FC29689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B364C588-ADB1-42B9-8BAF-F8916FC29689}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE5930E6-F923-4553-ACE5-102F23D073FB} = {6093D178-33C0-4BF2-B5E6-0DE62ECD70AB}
+		{82267BDE-FC14-436A-BB4D-D1C5AFCF13DB} = {6C3E0C5D-CD95-4D6A-93E4-DB8378204D2B}
+		{BED3F928-903B-40A3-AEDB-08BFAB304FB7} = {ECF1AD09-5D27-4E3B-97CB-39847552C152}
+		{6FE410FD-ED32-4C21-848B-487BA34E12E1} = {720AA00E-8AB1-4CDC-A578-35724A06FE21}
+		{3A390A57-C7CE-47C4-A098-11ADAF7AECE1} = {F8F75AD9-88ED-4232-9F86-BD6BAA75B342}
+		{5BBF8A75-04A1-4103-BA37-175BC83497D5} = {F8F75AD9-88ED-4232-9F86-BD6BAA75B342}
+		{B364C588-ADB1-42B9-8BAF-F8916FC29689} = {F8F75AD9-88ED-4232-9F86-BD6BAA75B342}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAC4E69F-096C-4227-9003-8D6ABA5B6924}
+	EndGlobalSection
+EndGlobal
